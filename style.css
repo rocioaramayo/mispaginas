@@ -26,6 +26,9 @@ header{
 .esconder{
   display: none;
 }
+#imagenV{
+  display: none;
+}
 #transpa{
     background-color: rgba(255,255, 255, 0.3);
 }
@@ -40,13 +43,22 @@ header ul li a{
     font-family: Inter;
     font-size: 18px;
 }
-/* nav ul li{
+.btn-propio{
+  margin:2px;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+  font-family: Inter ;
+  font-size: 20px;
+  border:solid 2px white;
+  border-radius: 6px;
+}
+.btn-propio:hover{
+  background-color: beige;
+  color: black;
 
-    list-style: none;
-    display: inline;
-    align-items: center;
-    margin: 15px;
-} */
+}
 .navegador{
     display:flex;
     justify-content:space-between;
@@ -121,7 +133,7 @@ i{
     font-family: "Open Sans";
     border: 2px solid black;
     border-radius: 3px;
-    padding: 5px; !important
+    padding: 5px !important;
 } 
 
 /* El margin y padding de los botones ,no funciona si no */
@@ -228,214 +240,10 @@ footer{
     background-color:#E0E0E0 ;
 }
 
-/* Animaciones de codepen */
-.popa{
-    display: table;
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  
-  @keyframes bottomright {
-    0% {
-      width: 0;
-      height: 0;
-      padding-top: 0;
-      visibility: visible;
-    }
-    25% {
-      width: 100%;
-      height: 0;
-      padding-top: 0;
-      visibility: visible;
-    }
-    50% {
-      height: 100%;
-      width: 100%;
-      visibility: visible;
-    }
-    75% {
-      visibility: visible;
-    }
-    100% {
-      visibility: visible;
-    }
-  }
-  
-  @keyframes revbottomright {
-    0% {
-      width: 100%;
-      height: 100%;
-      visibility: visible;
-    }
-    25% {
-      width: 100%;
-      height: 100%;
-      visibility: visible;
-    }
-    50% {
-      width: 100%;
-      height: 100%;
-      visibility: visible;
-    }
-    75% {
-      width: 100%;
-      height: 0;
-      padding-top: 0;
-      visibility: visible;
-    }
-    100% {
-      width: 0;
-      height: 0;
-      padding-top: 0;
-      visibility: hidden;
-    }
-  }
-  
-  @keyframes topleft {
-    0% {
-      width: 0;
-      height: 0;
-      padding-bottom: 0;
-      visibility: hidden;
-    }
-    25% {
-      width: 0;
-      height: 0;
-      padding-bottom: 0;
-      visibility: hidden;
-    }
-    50% {
-      width: 0;
-      height: 0;
-      padding-bottom: 0;
-      visibility: hidden;
-    }
-    75% {
-      width: 100%;
-      height: 0;
-      padding-bottom: 0;
-      visibility: visible;
-    }
-    100% {
-      width: 100%;
-      height: 100%;
-      opacity: 1;
-      visibility: visible;
-    }
-  }
-  
-  @keyframes revtopleft {
-    0% {
-      width: 100%;
-      height: 100%;
-      opacity: 1;
-      visibility: visible;
-    }
-    25% {
-      width: 100%;
-      height: 0;
-      padding-bottom: 0;
-      visibility: visible;
-    }
-    50% {
-      width: 0;
-      height: 0;
-      padding-bottom: 0;
-      visibility: hidden;
-    }
-    75% {
-      width: 0;
-      height: 0;
-      padding-bottom: 0;
-      visibility: hidden;
-    }
-    100% {
-      width: 0;
-      height: 0;
-      padding-bottom: 0;
-      visibility: hidden;
-    }
-  }
-  
-.popa {
-    font-family:"Open Sans" ;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #aaa;
-    transition: color 0.75s ease-in-out;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px;
-    position: relative;
-    border: 5px solid #935116;
-    -moz-border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round !important;
-    -webkit-border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round !important;
-    -o-border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round !important;
-    border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round !important;
-} 
 
-.popa:hover {
-    color: #333;
-    transition: color 0.75s ease-in-out;
-} 
-
-.popa:after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    padding-right: 5px;
-    left: -5px;
-    width: 100%;
-    height: 100%;
-    border-bottom: 5px solid #333;
-    border-right: 5px solid #333;
-    visibility: hidden;
-}
-
-.popa:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    padding-left: 5px;
-    width: 100%;
-    height: 100%;
-    border-top: 5px solid #333;
-    border-left: 5px solid #333;
-    visibility: hidden;
-}
-
-.popa:hover:before {
-    animation: topleft 0.5s ease-in-out forwards;
-}
-
-.popa:hover:after {
-    animation: bottomright 0.5s ease-in-out forwards;
-}
-
-.popa.active:before {
-    animation: revtopleft 0.5s ease-in-out forwards;
-}
-
-.popa.active:after {
-    animation: revbottomright 0.5s ease-in-out forwards;
-}
-
-.popa.active:before,
-.popa.active:after {
-    width: 100%;
-    height: 100%;
-    visibility: visible;
-}
-
-.popa.temp:before, a.temp:after {
-    width: 100%;
-    height: 100%;
-    visibility: visible;
-}
 
 /*  media*/
-@media screen and (max-width:400px ) 
+@media screen and (max-width:768px ) 
 
 {
     .listado_produ{
@@ -456,7 +264,9 @@ footer{
     .esconder{
       margin:20px;
       display: block;
-
+    }
+    #imagenV{
+      display: block;
     }
 
 
