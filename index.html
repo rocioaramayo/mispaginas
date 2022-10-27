@@ -19,7 +19,7 @@
     <header id="transpa">
         <nav class="navegador" >
             <h1>Brawy</h1>
-            <ul>
+            <ul class="esconde1 estiloLista">
                 <li><a href="./index.html" target="_blank">Inicio</a></li>
                 <li><a href="./productos.html" target="_blank">Tienda</a></li>
                 <li><a href="./sobre.html" target="_blank">Sobre</a></li>
@@ -27,7 +27,23 @@
                 <li ><a href="https://www.instagram.com"><img src="./img/istagram.png"></a> </li>
                 <li ><img src="./img/carro.png" alt="carrito de compras"></li>
             </ul>
+            <div class="esconder">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista" href="./index.html" target="_blank">Inicio</a></button></li>
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista"  href="./productos.html" target="_blank">Productos</a></button></li>
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista" href="./sobre.html" target="_blank">Sobre</a></button></li>
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista" href="#footer" target="_blank">Contacto</a></button></li>
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista" href="https://www.instagram.com"><img src="./img/istagram.png"></a></button></li>
+                      <li><button class="dropdown-item" type="button"><img class="estiloLista" src="./img/carro.png" alt="carrito de compras"></button></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+
 
     </header>
     <main>
