@@ -59,9 +59,9 @@ main iframe{
     height:65rem;
 }
 section iframe{
-    width: 50%;
-    height: 170%;
-    margin: 5px 15px 20px 15px;
+    width: 800px;
+    height: 500px;
+    margin: 5px 15px 20px 15px; 
 }
 
 
@@ -71,7 +71,7 @@ section iframe{
     font-family: "Open Sans";
     font-size: 30px;
     text-align: center;
-    font-weight:600px;
+    font-weight:500px;
     color: black;
     margin: 5%;
 }
@@ -99,7 +99,7 @@ i{
 
 /* Formato general de los botones (texto y border) */
 
-/* .popa{
+.popa2{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
@@ -108,7 +108,7 @@ i{
     border: 2px solid black;
     border-radius: 3px;
     padding: 5px; 
-} */
+} 
 
 /* El margin y padding de los botones ,no funciona si no */
 .centera{
@@ -430,6 +430,10 @@ footer{
 
     .cel{
         margin:30px
+    }
+    section iframe{
+        width: 350px;
+        height: 350px;
     }
 
 
