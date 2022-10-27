@@ -121,8 +121,7 @@ i{
     font-family: "Open Sans";
     border: 2px solid black;
     border-radius: 3px;
-    padding: 5px; 
-    background-color: aliceblue;
+    padding: 5px; !important
 } 
 
 /* El margin y padding de los botones ,no funciona si no */
@@ -369,16 +368,16 @@ footer{
     padding: 10px;
     position: relative;
     border: 5px solid #935116;
-    -moz-border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round;
-    -webkit-border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round;
-    -o-border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round;
-    border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round;
-}
+    -moz-border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round !important;
+    -webkit-border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round !important;
+    -o-border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round !important;
+    border-image: url(http://maxschulmeister.com/sneakin/assets/images/svg/scanframe.svg) 5 round !important;
+} 
 
 .popa:hover {
     color: #333;
     transition: color 0.75s ease-in-out;
-}
+} 
 
 .popa:after {
     content: "";
@@ -426,7 +425,7 @@ footer{
 .popa.active:after {
     width: 100%;
     height: 100%;
-        visibility: visible;
+    visibility: visible;
 }
 
 .popa.temp:before, a.temp:after {
