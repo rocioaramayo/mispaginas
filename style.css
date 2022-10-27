@@ -67,7 +67,8 @@ header ul li a{
   list-style: none;
   display: inline;
   align-items: center; 
-  margin: 15px;
+  margin: 20px;
+  margin-top: 5% !important;
 }
 
 /* Tamaño de imagenes principales,aplica al index y productos */
@@ -239,7 +240,6 @@ footer div a{
 footer{
     background-color:#E0E0E0 ;
 }
-
 
 
 /*  media*/
