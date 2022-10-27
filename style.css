@@ -4,7 +4,9 @@ body{
 }
 
 /* Header */
+
 h1{
+    font-weight: bold;
     color:black;
     text-align: center;
     font-family: Lobster;
@@ -20,6 +22,10 @@ header{
     left:0;
     background-color: white;
 }
+
+.esconder{
+  display: none;
+}
 #transpa{
     background-color: rgba(255,255, 255, 0.3);
 }
@@ -34,15 +40,24 @@ header ul li a{
     font-family: Inter;
     font-size: 18px;
 }
-nav ul li{
+/* nav ul li{
+
     list-style: none;
     display: inline;
     align-items: center;
     margin: 15px;
-}
+} */
 .navegador{
     display:flex;
     justify-content:space-between;
+}
+.estiloLista{
+  /* display: flex;
+  align-content: center; */
+  list-style: none;
+  display: inline;
+  align-items: center;
+  margin: 15px;
 }
 
 /* Tamaño de imagenes principales,aplica al index y productos */
@@ -68,6 +83,7 @@ section iframe{
 
 /* Texto de titulos general de las 3 paginas */
 .textoimg{
+    font-weight: bold;
     font-family: "Open Sans";
     font-size: 30px;
     text-align: center;
@@ -422,7 +438,8 @@ footer{
 }
 
 /*  media*/
-@media screen and (max-width:576px ) 
+@media screen and (max-width:400px ) 
+
 {
     .listado_produ{
         display: flex;
@@ -436,6 +453,15 @@ footer{
         width: 350px;
         height: 350px;
     }
+    .esconde1{
+      display: none;
+    }
+    .esconder{
+      margin:20px;
+      display: block;
+
+    }
+
 
 
 }

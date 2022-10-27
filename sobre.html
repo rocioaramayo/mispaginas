@@ -19,14 +19,30 @@
     <header>
         <nav class="navegador">
             <h1>Brawy</h1>
-            <ul>
-                <li><a href="./index.html" target="_blank">Inicio</a></li>
-                <li><a href="./productos.html" target="_blank">Tienda</a></li>
-                <li><a href="./sobre.html" target="_blank">Sobre</a></li>
-                <li><a href="#footer" target="_blank">Contacto</a></li>
-                <li><a href="https://www.instagram.com"><img src="./img/istagram.png"></a> </li>
-                <li><img src="./img/carro.png" alt="carrito de compras"></li>
+            <ul class="esconde1">
+                <li ><a class="estiloLista" href="./index.html" target="_blank">Inicio</a></li>
+                <li ><a class="estiloLista"  href="./productos.html" target="_blank">Tienda</a></li>
+                <li ><a class="estiloLista" href="./sobre.html" target="_blank">Sobre</a></li>
+                <li ><a class="estiloLista" href="#footer" target="_blank">Contacto</a></li>
+                <li ><a class="estiloLista" href="https://www.instagram.com"><img src="./img/istagram.png"></a> </li>
+                <li ><img class="estiloLista" src="./img/carro.png" alt="carrito de compras"></li>
             </ul>
+            <div class="esconder">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista" href="./index.html" target="_blank">Inicio</a></button></li>
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista"  href="./productos.html" target="_blank">Productos</a></button></li>
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista" href="./sobre.html" target="_blank">Sobre</a></button></li>
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista" href="#footer" target="_blank">Contacto</a></button></li>
+                      <li><button class="dropdown-item" type="button"><a class="estiloLista" href="https://www.instagram.com"><img src="./img/istagram.png"></a></button></li>
+                      <li><button class="dropdown-item" type="button"><img class="estiloLista" src="./img/carro.png" alt="carrito de compras"></button></li>
+                    </ul>
+                </div>
+            </div>
+
         </nav>
         
     </header>
@@ -40,36 +56,7 @@
                 <img id="minilogo" src="./img/favicoin.png">
             </div>
             <h3 class="textoimg">Nuestra historia</h3>
-            <div class="container">
-                <div class="row">
-                    <div id="carouselExampleIndicators" class="carousel slide col-6" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./img/fondo2.webp" class="d-block w-100 h-40" alt="Brownie">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./img/imagenhcarruu.jpg" class="d-block w-100 h-80" alt="Brownie">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./img/imagencarru.png" class="d-block w-100 h-80" alt="Brownie">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-    
-                </div>
+
             <div id="pe">
                 <p class="textop">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio vel, distinctio cupiditate incidunt fuga, ut quos quod beatae suscipit voluptates eligendi aspernatur nam fugit ad doloremque in ab obcaecati! Veniam.
