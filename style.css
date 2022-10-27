@@ -108,6 +108,7 @@ i{
     border: 2px solid black;
     border-radius: 3px;
     padding: 5px; 
+    background-color: aliceblue;
 } 
 
 /* El margin y padding de los botones ,no funciona si no */
@@ -421,7 +422,7 @@ footer{
 }
 
 /*  media*/
-@media screen and (max-width:414px ) 
+@media screen and (max-width:576px ) 
 {
     .listado_produ{
         display: flex;
