@@ -67,8 +67,8 @@ header ul li a{
   list-style: none;
   display: inline;
   align-items: center; 
-  margin: 20px;
-  margin-top: 5% !important;
+  margin: 15px;
+
 }
 
 /* Tamaño de imagenes principales,aplica al index y productos */
@@ -78,7 +78,7 @@ body main img{
 }
 
 /* Edicion de video de youtube pag 3 */
-main iframe{
+#gif{
     margin: 2%;
     justify-content: center;
     width:100%;
@@ -238,7 +238,7 @@ footer div a{
 }
 
 footer{
-    background-color:#E0E0E0 ;
+    background-color: #D0B39F;
 }
 
 
