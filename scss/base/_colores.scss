@@ -1,0 +1,10 @@
+$colores:
+rgb(208, 179, 159),
+black ,
+#E0E0E0;
+
+
+#pe{
+    background-color: nth($colores ,3 );
+}
+
