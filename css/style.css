@@ -121,6 +121,10 @@ body main img {
   max-height: 60rem;
 }
 
+.miclase {
+  position: inherit;
+}
+
 #imagen2 {
   display: none;
 }
