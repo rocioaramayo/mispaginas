@@ -91,7 +91,7 @@ header ul li a {
 }
 
 .btn-propio:hover {
-  background-color: beige;
+  background-color: #E0E0E0;
   color: black;
 }
 
@@ -273,7 +273,7 @@ footer div a {
 }
 
 footer {
-  background-color: rgb(208, 179, 159);
+  background-color: #E0E0E0;
 }
 
 /*  media*/
